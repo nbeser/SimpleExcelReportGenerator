@@ -1,9 +1,5 @@
 <a id="readme-top"></a>
 
--->
-![Contributors][contributors-shield](https://github.com/nbeser/)
-![LinkedIn][linkedin-shield](https://www.linkedin.com/in/nurettin-beser-arcnbsr23/)
-
 
 
 <!-- PROJECT LOGO -->
@@ -35,6 +31,9 @@
     </li>
     <li><a href="#features">Features</a></li>
     <li><a href="#demo">Demo</a></li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#executable">Executable</a></li>
+    <li><a href="#tech">Tech</a></li>
    </ol>
 </details>
 
@@ -43,7 +42,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](image/logo.png)
+![Product Screen Shot](image/logo.png)
 
 This tool converts raw .xlsx sales data into:
 
@@ -112,6 +111,62 @@ Outputs
 
 
 
+## Installation 
+<h5>For Developers</h5>
+
+git clone https://github.com/nbeser/SimpleExcelReportGenerator.git
+
+cd SimpleExcelReportGenerator
+
+pip install -r requirements.txt
+
+
+<h5>Run GUI:</h5>
+python src/gui.py
+
+<h5>Run CLI:</h5>
+python src/main.py input.xlsx output.xlsx
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+## Executable
+<h5>For Non-Technical Users</h5>
+
+Download latest release
+
+Run .exe
+
+Select input file
+
+Choose output location
+
+Click Generate
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+
+## Tech
+
+Python
+
+pandas
+
+openpyxl
+
+tkinter
+
+PyInstaller
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- CONTACT -->
 ## Contact
@@ -119,5 +174,11 @@ Outputs
 Nurettin Beşer - [https://www.instagram.com/zcodingsolutions/](https://www.instagram.com/zcodingsolutions/)
 
 Project Link: [https://github.com/nbeser/SimpleExcelReportGenerator/](https://github.com/nbeser/SimpleExcelReportGenerator/)
+
+
+Contributer : [https://github.com/nbeser](https://github.com/nbeser)
+
+Linkedin : [https://www.linkedin.com/in/nurettin-beser-arcnbsr23](https://www.linkedin.com/in/nurettin-beser-arcnbsr23)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
