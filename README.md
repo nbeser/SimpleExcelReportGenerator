@@ -42,7 +42,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](image/logo.png)
+![Product Screen Shot](image/logo.png)
 
 This tool converts raw .xlsx sales data into:
 
@@ -124,7 +124,7 @@ pip install -r requirements.txt
 <h5>Run GUI:</h5>
 python src/gui.py
 
-<h5>RUN CLI:</h5>
+<h5>Run CLI:</h5>
 python src/main.py input.xlsx output.xlsx
 
 
