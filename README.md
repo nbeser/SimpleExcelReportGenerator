@@ -1,24 +1,23 @@
 <a id="readme-top"></a>
 
 -->
-[![Contributors][contributors-shield]][https://github.com/nbeser/]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/nurettin-beser-arcnbsr23/]
+![Contributors][contributors-shield](https://github.com/nbeser/)
+![LinkedIn][linkedin-shield](https://www.linkedin.com/in/nurettin-beser-arcnbsr23/)
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/nbeser/SimpleExcelReportGenerator/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+  
+![GUI Screenshot](image/logo.png)
+ 
 
   <h3 align="center">Simple Excel Sales Report Generator</h3>
 
   <p align="center">
     Turn raw Excel sales data into a clean business summary in one click.
     <br />
-    <a href="https://github.com/nbeser/SimpleExcelReportGenerator"><strong>Explore the docs »</strong></a>
     </p>
 </div>
 
@@ -117,7 +116,7 @@ Outputs
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Nurettin Beşer - [https://www.instagram.com/zcodingsolutions/](https://www.instagram.com/zcodingsolutions/)
 
 Project Link: [https://github.com/nbeser/SimpleExcelReportGenerator/](https://github.com/nbeser/SimpleExcelReportGenerator/)
 
