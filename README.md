@@ -31,6 +31,9 @@
     </li>
     <li><a href="#features">Features</a></li>
     <li><a href="#demo">Demo</a></li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#executable">Executable</a></li>
+    <li><a href="#tech">Tech</a></li>
    </ol>
 </details>
 
@@ -107,6 +110,58 @@ Outputs
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+
+## Installation 
+<h5>For Developers</h5>
+git clone https://github.com/nbeser/SimpleExcelReportGenerator.git
+cd SimpleExcelReportGenerator
+pip install -r requirements.txt
+
+Run GUI:
+python src/gui.py
+
+RUN CLI:
+python src/main.py input.xlsx output.xlsx
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+## Executable
+<h5>For Non-Technical Users</h5>
+
+Download latest release
+
+Run .exe
+
+Select input file
+
+Choose output location
+
+Click Generate
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+
+## Tech
+
+Python
+
+pandas
+
+openpyxl
+
+tkinter
+
+PyInstaller
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- CONTACT -->
