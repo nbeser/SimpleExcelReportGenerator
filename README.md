@@ -42,8 +42,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Product Screen Shot](image/logo.png)
-
 This tool converts raw .xlsx sales data into:
 
 A detailed processed report
