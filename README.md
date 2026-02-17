@@ -1,8 +1,8 @@
 <a id="readme-top"></a>
 
 -->
-![Contributors](https://github.com/nbeser/)
-![LinkedIn](https://www.linkedin.com/in/nurettin-beser-arcnbsr23/)
+![https://github.com/nbeser](https://github.com/nbeser)
+![https://www.linkedin.com/in/nurettin-beser-arcnbsr23](https://www.linkedin.com/in/nurettin-beser-arcnbsr23)
 
 
 
