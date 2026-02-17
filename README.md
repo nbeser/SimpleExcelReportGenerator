@@ -1,9 +1,9 @@
 <a id="readme-top"></a>
 
--->
 ![https://github.com/nbeser](https://github.com/nbeser)
+<br>
 ![https://www.linkedin.com/in/nurettin-beser-arcnbsr23](https://www.linkedin.com/in/nurettin-beser-arcnbsr23)
-
+<br>
 
 
 <!-- PROJECT LOGO -->
