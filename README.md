@@ -113,14 +113,18 @@ Outputs
 
 ## Installation 
 <h5>For Developers</h5>
+
 git clone https://github.com/nbeser/SimpleExcelReportGenerator.git
+
 cd SimpleExcelReportGenerator
+
 pip install -r requirements.txt
 
-Run GUI:
+
+<h5>Run GUI:</h5>
 python src/gui.py
 
-RUN CLI:
+<h5>RUN CLI:</h5>
 python src/main.py input.xlsx output.xlsx
 
 
