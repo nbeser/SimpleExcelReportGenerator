@@ -9,7 +9,11 @@ def select_input():
     input_entry.insert(0, file_path)
 
 def select_output():
-    file_path = filedialog.asksaveasfilename(defaultextension=".xlsx")
+    file_path = filedialog.asksaveasfilename(
+        title="Save Report As",
+        defaultextension=".xlsx",
+        filetypes=[("Excel files", "*.xlsx")],
+    )
     output_entry.delete(0, tk.END)
     output_entry.insert(0, file_path)
 
@@ -18,26 +22,42 @@ def run_report():
     output_path = Path(output_entry.get())
 
     if not input_path.exists():
-        messagebox.showerror("Hata", "Geçerli bir giriş dosyası seçin.")
+        message_label.config(text="❌ Please select a valid input file.", fg="red")
         return
 
-    generate_report(input_path, output_path)
-    messagebox.showinfo("Başarılı", "Rapor oluşturuldu!")
+    if output_path.suffix.lower() != ".xlsx":
+        message_label.config(text="❌ Output must end with .xlsx", fg="red")
+        return
+
+    try:
+        generate_report(input_path, output_path)
+        message_label.config(text="✅ Report Created Successfully!", fg="green")
+    except Exception as e:
+        message_label.config(text=f"❌ Error: {str(e)}", fg="red")
+
+# GUI SETUP
 
 root = tk.Tk()
 root.title("Excel AutoReport Pro")
-root.geometry("400x200")
+root.geometry("600x300")  
+root.resizable(False, False) 
 
-tk.Label(root, text="Giriş Excel Dosyası").pack()
-input_entry = tk.Entry(root, width=50)
-input_entry.pack()
-tk.Button(root, text="Seç", command=select_input).pack()
+frame = tk.Frame(root, padx=20, pady=20)
+frame.pack(expand=True, fill="both")
 
-tk.Label(root, text="Çıkış Rapor Dosyası").pack()
-output_entry = tk.Entry(root, width=50)
-output_entry.pack()
-tk.Button(root, text="Kaydet", command=select_output).pack()
+tk.Label(frame, text="Input Excel File (.xlsx)", anchor="w").pack(fill="x")
+input_entry = tk.Entry(frame, width=60)
+input_entry.pack(pady=5)
+tk.Button(frame, text="Select Input", command=select_input).pack(pady=5)
 
-tk.Button(root, text="Rapor Oluştur", command=run_report).pack(pady=10)
+tk.Label(frame, text="Output Excel File (.xlsx)", anchor="w").pack(fill="x")
+output_entry = tk.Entry(frame, width=60)
+output_entry.pack(pady=5)
+tk.Button(frame, text="Select Output", command=select_output).pack(pady=5)
+
+tk.Button(frame, text="Generate Report", command=run_report).pack(pady=15)
+
+message_label = tk.Label(frame, text="", font=("Arial", 10))
+message_label.pack()
 
 root.mainloop()
