@@ -1,9 +1,5 @@
 <a id="readme-top"></a>
 
-![https://github.com/nbeser](https://github.com/nbeser)
-<br>
-![https://www.linkedin.com/in/nurettin-beser-arcnbsr23](https://www.linkedin.com/in/nurettin-beser-arcnbsr23)
-<br>
 
 
 <!-- PROJECT LOGO -->
@@ -119,5 +115,11 @@ Outputs
 Nurettin Beşer - [https://www.instagram.com/zcodingsolutions/](https://www.instagram.com/zcodingsolutions/)
 
 Project Link: [https://github.com/nbeser/SimpleExcelReportGenerator/](https://github.com/nbeser/SimpleExcelReportGenerator/)
+
+
+Contributer : [https://github.com/nbeser](https://github.com/nbeser)
+
+Linkedin : [https://www.linkedin.com/in/nurettin-beser-arcnbsr23](https://www.linkedin.com/in/nurettin-beser-arcnbsr23)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
