@@ -1,6 +1,6 @@
 <a id="readme-top"></a>
 
-
+Designed for small businesses and freelancers who generate recurring Excel sales reports and want to automate summary creation.
 
 <!-- PROJECT LOGO -->
 <br />
